@@ -1,0 +1,9 @@
+
+.image-container {
+    background-image: url("../css/../img/massagepic.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
