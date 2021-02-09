@@ -46,7 +46,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.75;
+    opacity: 100;
 }
 
 .title-services {
@@ -56,6 +56,6 @@
     line-height: 0.9;
     text-align: center;
     margin-top: 100px;
-    color: black;
     font-family: 'Dancing Script', cursive;
+    color:#00d1b2;
 }
