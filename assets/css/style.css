@@ -1,9 +1,61 @@
-.image-container {
-    background-image: url("../css/../img/massagepic.jpeg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 75%;
+.hero-landing {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.hero-landing::before {    
+    content: "";
+    background-image: url("../img/massage.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+.title-landing {
+    position: relative;
+    color: #ffffff;  
+    font-size: 14rem;
+    line-height: 0.9;
+    text-align: center;
+    margin-top: 100px;
+}
+.hero-main {
+    position: relative; 
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-main::before {    
+    content: "";
+    background-image: url("../img/hotStone.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+.title-services {
+    position: relative;
+    color: #ffffff;  
+    font-size: 10rem;
+    line-height: 0.9;
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
