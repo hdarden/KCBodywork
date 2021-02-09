@@ -1,32 +1,93 @@
-/* .hero-landing {
-    position: relative; 
+p, a, .accordion-header {
+    color: black !important;
+}
+.navbar-item {
+    font-size: 20px;
+}
+.header-body {
+    background-image: url("../img/massage.jpg");
     height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
-.hero-landing::before {    
-    content: "";
-    background-image: url("../img/massage.jpg");
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75;
-} */
-/* .hero-container {
-    width: auto;
-} */
-.hero-body {
-    background-image: url("../img/massage.jpg");
-}
-.hero-content, .navbar-item {
+.hero-content, .navbar-item, .accordion-header {
     font-family: 'Dancing Script', cursive;
 }
+.hero-title {
+    font-size: 120px;
+    font-weight: bold;
+}
+.hero-subtitle {
+    font-size:40px;
+}
+@media only screen and (max-width: 658px) {
+    .hero-title {
+        font-size: 75px;
+    }
+    .hero-subtitle {
+        font-size: 30px;
+    }
+}
+
+/* Accordion */
+.accordion-container {
+    margin: 30px 200px 100px 200px;
+}
+
+@media only screen and (max-width: 900px) {
+    .accordion-container {
+        margin: 30px 20px;
+    }
+}
+.accordion-header {
+    font-size: 100px;
+}
+
+button.accordion {
+    width: 100%;
+    background-color: #00d1b2;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 15px 20px;
+    font-size:18px;
+    cursor: pointer !important;
+    transition: background-color 0.2s linear;
+}
+
+button.accordion::after {
+    content:'\f055';
+    font-family: "fontawesome";
+    font-size: 14px;
+    float: right;
+}
+button.accordion.is-open::after {
+    content:'\f056';
+}
+
+button.accordion:hover, button.accordion.is-open {
+    background-color:#BDF3EA;
+}
+.accordion-content {
+    padding: 0 20px;
+    border-left: 1px solid #00d1b2;
+    border-right: 1px solid #00d1b2;
+    border-bottom: 1px solid #00d1b2;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+}
+.mission-banner {
+    background-image: url("../img/massage.jpg");
+    background-repeat: no-repeat;
+    color: #00d1b2!important;
+    padding: 
+}
+.mission {
+    font-family: 'Dancing Script', cursive;
+}
+footer {
+    background-color: #BDF3EA!important;
+}
+
 /* .title-landing {
     position: relative;
     color: #ffffff;  

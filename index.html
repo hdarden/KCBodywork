@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>KC Bodywork</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,7 +17,7 @@
     <section class="hero is-primary is-large">
     <div class="hero-head">
         <nav class="navbar">
-        <div class="container">
+        <div class="container has-text-centered">
             <div class="navbar-brand">
             <a class="navbar-item">
                 <!-- <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo"> -->
@@ -27,18 +28,18 @@
                 <span></span>
             </span>
             </div>
-            <div id="navbarMenuHeroB" class="navbar-menu has-text-black">
+            <div id="navbarMenuHeroB" class="navbar-menu">
             <div class="navbar-end">
-                <a class="navbar-item">
+                <a class="navbar-item" href="#">
                 Home
                 </a>
-                <a class="navbar-item">
-                About
-                </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="#services">
                 Services
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="#">
+                About
+                </a>
+                <a class="navbar-item" href="/assets/html/contact.html">
                 Contact
                 </a>
                 <!-- <span class="navbar-item">
@@ -55,18 +56,98 @@
         </nav>
     </div>
     <!-- Hero Banner -->
-    <div class="hero-body">
+    <div class="hero-body header-body">
         <div class="container has-text-centered">
-        <p class="title has-text-black hero-content">
+        <p class="hero-title hero-content">
             KC Bodywork
         </p>
-        <p class="subtitle has-text-black hero-content">
+        <p class="hero-subtitle hero-content">
             "Real change, enduring change, happens one step at a time."
         </p>
         </div>
+        <br>
     </div>
     </section>
+    <!-- Services Accordion -->
+    <section>
+        <div class="container accordion-container" id="services">
+            <h1 class="has-text-centered accordion-header pb-4">Services</h1>
+            <button class="accordion">Bodywork</button>
+            <div class="accordion-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolore dignissimos atque impedit veniam? Cum qui, inventore praesentium dolores, accusantium distinctio architecto, pariatur possimus cumque voluptate quis repellendus delectus quisquam.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolore dignissimos atque impedit veniam? Cum qui, inventore praesentium dolores, accusantium distinctio architecto, pariatur possimus cumque voluptate quis repellendus delectus quisquam.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolore dignissimos atque impedit veniam? Cum qui, inventore praesentium dolores, accusantium distinctio architecto, pariatur possimus cumque voluptate quis repellendus delectus quisquam.
+                </p>
+            </div>
+            <button class="accordion">Deep Tissue</button>
+            <div class="accordion-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolore dignissimos atque impedit veniam? Cum qui, inventore praesentium dolores, accusantium distinctio architecto, pariatur possimus cumque voluptate quis repellendus delectus quisquam.
+                </p>
+            </div>
+            <button class="accordion">Hot Stones</button>
+            <div class="accordion-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolore dignissimos atque impedit veniam? Cum qui, inventore praesentium dolores, accusantium distinctio architecto, pariatur possimus cumque voluptate quis repellendus delectus quisquam.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Description Banner About KC Bodywork Mission?? -->
+    <section class="hero is-medium is-primary has-text-centered">
+        <div class="hero-body mission-banner">
+            <p class="mission title">
+                Mission Statement or whatever
+            </p>
+            <p class="mission subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam vero, doloremque totam adipisci nam veritatis in excepturi odit voluptate molestiae consectetur, provident cumque deserunt autem, ipsum sequi dicta sint eum!
+            </p>
+            <div class="has-text-centered">
+                <a class="button is-rounded is-black has-text-white" href="assets/html/contact.html">Schedule Appointment</a>
+            </div>
+        </div>
+    </section>
+    <section>
+    <!-- Contact Button takes you to contact form page -->
+
+    </section>
+    <!-- Footer -->    
+    <section>
+        <footer class="footer pb-5">
+            <div class="columns">
+                <div class="column is-one-fifth"></div>
+                <div class="column">
+                    <p class="subtitle">Contact Us</p>
+                    <p class="">KC BodyWork</p>
+                    <p>1232 Central Avenue</p>
+                    <p>Charlotte, NC 28109</p>
+                    <p>704-555-5555</p>
+                </div>
+                <div class="column">
+                    <p class="subtitle">Follow on: </p>
+                    <ul class="list-inline social-icons">
+                        <li class="list-inline-item"><a class="social-icon" href="https://www.linkedin.com/in/helendarden/" target="blank"><i class="fab fa-facebook"></i></a></li>                     
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content has-text-centered">
+                <br>
+                <p>
+                    Website design by <a href="https://github.com/hdarden">Helen Darden</a>.
+                </p>
+            </div>
+        </footer>
+    </section>
     <script src="/assets/js/index.js"></script>
+    <script src="assets/js/accordian.js"></script>
 </body>
 
 </html>
