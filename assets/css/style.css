@@ -1,14 +1,24 @@
-p, a, .accordion-header {
+/* Font Family */
+p, .accordion-header, .accordion, .mission, .navbar-item, .contact-content {
     color: black !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Navbar and Hero */
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 .navbar-item {
-    font-size: 20px;
+    font-size: 25px;
+    color: black !important;
 }
 .header-body {
     background-image: url("../img/massage.jpg");
     height: 100vh;
 }
-.hero-content, .navbar-item, .accordion-header {
+.hero-content, .accordion-header {
     font-family: 'Dancing Script', cursive;
 }
 .hero-title {
@@ -28,10 +38,9 @@ p, a, .accordion-header {
 }
 
 /* Accordion */
-.accordion-container {
-    margin: 30px 200px 100px 200px;
+.accordion-container, .mission-content-container {
+    margin: 30px 300px 100px 300px;
 }
-
 @media only screen and (max-width: 900px) {
     .accordion-container {
         margin: 30px 20px;
@@ -40,7 +49,6 @@ p, a, .accordion-header {
 .accordion-header {
     font-size: 100px;
 }
-
 button.accordion {
     width: 100%;
     background-color: #00d1b2;
@@ -52,7 +60,6 @@ button.accordion {
     cursor: pointer !important;
     transition: background-color 0.2s linear;
 }
-
 button.accordion::after {
     content:'\f055';
     font-family: "fontawesome";
@@ -62,12 +69,11 @@ button.accordion::after {
 button.accordion.is-open::after {
     content:'\f056';
 }
-
 button.accordion:hover, button.accordion.is-open {
     background-color:#BDF3EA;
 }
 .accordion-content {
-    padding: 0 20px;
+    padding: 0px 20px;
     border-left: 1px solid #00d1b2;
     border-right: 1px solid #00d1b2;
     border-bottom: 1px solid #00d1b2;
@@ -75,18 +81,37 @@ button.accordion:hover, button.accordion.is-open {
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
 }
+.acc-p {
+    padding: 15px 10px;
+}
+
+/* Home Page Banner */
 .mission-banner {
     background-image: url("../img/massage.jpg");
     background-repeat: no-repeat;
     color: #00d1b2!important;
-    padding: 
 }
-.mission {
-    font-family: 'Dancing Script', cursive;
+
+/* Contact Page */
+.contact-content {
+    margin: 80px 500px 150px 500px;
+    font-size: 25px;
 }
+.email {
+    color:black;
+}
+.email:hover {
+    color: #00d1b2;
+}
+
+/* Footer */
 footer {
     background-color: #BDF3EA!important;
 }
+.social-icon {
+    color: #00d1b2;
+}
+
 
 /* .title-landing {
     position: relative;
