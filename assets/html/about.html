@@ -12,33 +12,99 @@
     <script src="../js/nav-menu.js"></script>
 </head>
 <body>
-    <!-- Navbar -->
-    <section>
-        <nav class="navbar is-fixed-top is-black" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                </a>
-            </div>
-            <div id="navbarBasicExample" class="navbar-menu has-text-centered">
-                <div class="navbar-end">
-                    <a class="navbar-item" href="../../index.html">Home</a>
-                    <a class="navbar-item" href="../../index.html#services">Services</a>
-                    <a class="navbar-item" href="#">About</a>
-                    <a class="navbar-item" href="contact.html">Contact</a>
+    <!-- Hero Nav -->
+    <section class="hero is-primary is-medium">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container has-text-centered">
+                    <div class="navbar-brand">
+                        <span class="navbar-burger" data-target="navbarMenuHeroB">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenuHeroB" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item" href="../../index.html">
+                            Home
+                            </a>
+                            <a class="navbar-item" href="../../index.html#services">
+                            Services
+                            </a>
+                            <a class="navbar-item" href="../html/about.html">
+                            About
+                            </a>
+                            <a class="navbar-item" href="#">
+                            Contact
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="navbar-end">
-                </div>
-            </div>
-        </nav>
-    </section>
-    <!-- Hero -->
-    <section class="hero-main">
-        <div class="hero-body">
-            <h1 class="title title-services has-text-centered">KC Bodywork</h1>
+            </nav>
         </div>
+            <!-- Hero Banner -->
+        <div class="hero-body contact-header">
+            <div class="container has-text-centered">
+                <p class="hero-content hero-title">
+                    About
+                </p>
+            </div>
+            <br>
+        </div>
+    </section>
+    <!-- About Content -->
+    <section class="section is-medium">
+        <p class="title">Section</p>
+        <div class="box">
+            <article class="media">
+                <div class="media-left">
+                <figure class="image is-1280x1280">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                </figure>
+                </div>
+                <div class="media-content">
+                <div class="content">
+                    <p>
+                    <strong>Kelly Craig</strong>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                    </p>
+                </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- Footer -->    
+    <section>
+        <footer class="footer pb-5">
+            <div class="columns">
+                <div class="column is-one-fifth">
+                </div>
+                <div class="column">
+                    <p class="subtitle">KC BodyWork</p>
+                    <p>1232 Central Avenue</p>
+                    <p>Charlotte, NC 28109</p>
+                    <p>704-555-5555</p>
+                    <br>
+                </div>
+                <div class="column">
+                    <br><br>
+                    <span>
+                        <a class="social-icon" href="https://www.linkedin.com/in/helendarden/" target="blank"><i class="fab fa-facebook fa-3x"></i></a>
+                    </span>&nbsp;&nbsp;
+                    <span>
+                        <a class="social-icon" href="mailto:kellyscott393@gmail.com" target="blank"><i class="fas fa-envelope fa-3x"></i></a>
+                    </span>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="content has-text-centered">
+                <p>
+                    Website design by <a class="email" href="mailto:hgdarden@gmail.com">Helen Darden</a>.
+                </p>
+            </div>
+        </footer>
     </section>
     <script src="../js/index.js"></script>
 </body>

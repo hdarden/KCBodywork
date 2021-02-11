@@ -1,5 +1,5 @@
 /* Font Family */
-p, .accordion-header, .accordion, .mission, .navbar-item, .contact-content {
+p, li, .accordion-header, .accordion, .mission, .navbar-item, .contact-content {
     color: black !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -45,6 +45,9 @@ p, .accordion-header, .accordion, .mission, .navbar-item, .contact-content {
     .accordion-container {
         margin: 30px 20px;
     }
+    .mission-content-container {
+        margin: 30px 100px;
+    }
 }
 .accordion-header {
     font-size: 100px;
@@ -82,7 +85,7 @@ button.accordion:hover, button.accordion.is-open {
     transition: max-height 0.2s ease-in-out;
 }
 .acc-p {
-    padding: 15px 10px;
+    padding: 25px 10px;
 }
 
 /* Home Page Banner */
