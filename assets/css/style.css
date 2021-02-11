@@ -85,7 +85,7 @@ button.accordion:hover, button.accordion.is-open {
     transition: max-height 0.2s ease-in-out;
 }
 .acc-p {
-    padding: 25px 10px;
+    padding: 0px 10px;
 }
 
 /* Home Page Banner */
