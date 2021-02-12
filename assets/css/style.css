@@ -13,6 +13,7 @@ p, li, .accordion-header, .accordion, .cancellation, .navbar-item, .contact-cont
 .navbar-item {
     font-size: 25px;
     color: black !important;
+    background-color: #00d1b2;
 }
 .header-body {
     background-image: url("../img/massage.jpg");
@@ -39,14 +40,14 @@ p, li, .accordion-header, .accordion, .cancellation, .navbar-item, .contact-cont
 
 /* Accordion */
 .accordion-container, .cancellation-content-container {
-    margin: 30px 300px 100px 300px;
+    margin: 30px 250px 100px 250px;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 961px) {
     .accordion-container {
         margin: 30px 20px;
     }
     .cancellation-content-container {
-        margin: 30px 100px;
+        margin: 30px 20px;
     }
 }
 .accordion-header {
@@ -93,6 +94,15 @@ button.accordion:hover, button.accordion.is-open {
     background-image: url("../img/massage.jpg");
     background-repeat: no-repeat;
     color: #00d1b2!important;
+}
+
+/* About Page */
+.kelly-image {
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /* Contact Page */
