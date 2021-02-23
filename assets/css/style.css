@@ -1,5 +1,5 @@
 /* Font Family */
-p, li, .accordion-header, .accordion, .cancellation, .navbar-item, .contact-content {
+p, li, .accordion-header, .accordion, .cancellation, .navbar-item, .contact-content, h1, h3 {
     color: black !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -29,6 +29,22 @@ p, li, .accordion-header, .accordion, .cancellation, .navbar-item, .contact-cont
 .hero-subtitle {
     font-size:40px;
 }
+
+.hero.has-background {
+    position: relative;
+    overflow: hidden;
+}
+.hero-background {
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+}
+.hero-background.is-transparent {
+    opacity: 0.3;
+}
+
 @media only screen and (max-width: 658px) {
     .hero-title {
         font-size: 75px;
@@ -104,6 +120,12 @@ button.accordion:hover, button.accordion.is-open {
     margin-right: auto;
     width: 50%;
 }
+@media only screen and (min-width: 961px) {
+.about-content {
+    padding: 0px 100px 50px 100px;
+
+}
+}
 
 /* Contact Page */
 .contact-content {
@@ -124,44 +146,3 @@ footer {
 .social-icon {
     color: #00d1b2;
 }
-
-
-/* .title-landing {
-    position: relative;
-    color: #ffffff;  
-    font-size: 14rem;
-    line-height: 0.9;
-    text-align: center;
-    margin-top: 100px;
-}
-.hero-main {
-    position: relative; 
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-main::before {    
-    content: "";
-    background-image: url("../img/hotStone.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 100;
-}
-
-.title-services {
-    position: relative;
-    color: #ffffff;  
-    font-size: 10rem;
-    line-height: 0.9;
-    text-align: center;
-    margin-top: 100px;
-    font-family: 'Dancing Script', cursive;
-} */
