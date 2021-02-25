@@ -1,5 +1,5 @@
 /* Font Family */
-p, li, .accordion-header, .accordion, .cancellation, .navbar-item, .contact-content, h1, h3 {
+p, li, .accordion-header, .accordion, .navbar-item, .contact-content, h1, h3 {
     color: black !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -39,7 +39,7 @@ p, li, .accordion-header, .accordion, .cancellation, .navbar-item, .contact-cont
     height: 100%;
 }
 .hero-background.is-transparent {
-    opacity: 0.3;
+    opacity: 50%;
 }
 
 @media only screen and (max-width: 658px) {
@@ -100,13 +100,6 @@ button.accordion:hover, button.accordion.is-open {
 }
 .acc-p {
     padding: 0px 10px;
-}
-
-/* Home Page Banner */
-.cancellation-banner {
-    background-image: url("../img/massage.jpg");
-    background-repeat: no-repeat;
-    color: #00d1b2!important;
 }
 
 /* About Page */
