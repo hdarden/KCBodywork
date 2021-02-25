@@ -15,10 +15,7 @@ p, li, .accordion-header, .accordion, .cancellation, .navbar-item, .contact-cont
     color: black !important;
     background-color: #00d1b2;
 }
-/* .header-body {
-    background-image: url("../img/massage.jpg");
-    height: 100vh;
-} */
+
 .hero-content, .accordion-header {
     font-family: 'Dancing Script', cursive;
 }
