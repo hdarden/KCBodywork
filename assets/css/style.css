@@ -3,6 +3,9 @@ p, li, .accordion-header, .accordion, .navbar-item, .contact-content, h1, h3 {
     color: black !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.hero-content {
+    color:white!important;
+}
 
 /* Navbar and Hero */
 .navbar {
@@ -10,12 +13,16 @@ p, li, .accordion-header, .accordion, .navbar-item, .contact-content, h1, h3 {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
+a.navbar-item:hover {
+    color: black!important;
+    background-color:#00d1b2!important;
+}
 .hero .navbar {
     background-color:  #00d1b2;
 }
 .navbar-item {
     font-size: 25px;
-    color: black !important;
+    color: white !important;
     background-color: #00d1b2;
 }
 
@@ -116,10 +123,10 @@ button.accordion:hover, button.accordion.is-open {
 
 }
 @media only screen and (min-width: 961px) {
-.about-content {
-    padding: 40px 50px 50px 30px;
+    .about-content {
+        padding: 40px 50px 50px 30px;
 
-}
+    }
 }
 
 /* Contact Page */
