@@ -10,6 +10,9 @@ p, li, .accordion-header, .accordion, .navbar-item, .contact-content, h1, h3 {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
+.hero .navbar {
+    background-color:  #00d1b2;
+}
 .navbar-item {
     font-size: 25px;
     color: black !important;
@@ -104,15 +107,17 @@ button.accordion:hover, button.accordion.is-open {
 
 /* About Page */
 .kelly-image {
-    padding-top: 50px;
+    padding-top: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    height: 400px;
+    width: 400px;
+
 }
 @media only screen and (min-width: 961px) {
 .about-content {
-    padding: 0px 100px 50px 100px;
+    padding: 40px 50px 50px 30px;
 
 }
 }
